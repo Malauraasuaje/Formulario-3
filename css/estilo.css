@@ -1,0 +1,112 @@
+/* María Laura Asuaje  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: "Montserrat", sans-serif;
+}
+h4{
+    text-align: center;
+}
+/* estilo para el formulario */
+form {
+    margin-top: 15px;
+    padding: 40px 30px;
+    height: auto;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border: 2px solid rgb(36, 74, 87);
+    border-radius: 25px;
+    background: hsla(208, 67%, 81%, 1);
+    background: linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
+}
+/* Estilo para casillas de información */
+#nombre{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+#email{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+#genero{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#contraseña{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+#confirmar{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+/* Estilo para botones */
+.enviar{
+    color: gray;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.borrar{
+    color: gray;
+    background:white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.enviar:hover {
+    color: rgb(46, 141, 48);
+    transition: 0.3s;
+    cursor: pointer;
+    scale: 1.1;
+    background: linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
+    ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.borrar:hover{
+    color: rgb(226, 43, 43);
+    transition: 0.3s;
+    cursor: pointer;
+    scale: 1.1;
+    background: linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+/* Estilos para el input */
+input{
+    padding: 5px;
+    border-radius: 5px;
+}   
+label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+.div-buttom{
+    margin-left: 30%;
+}
+/* Estilos para la imagen */
+.custom-cat{
+    max-width: 50px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 42%;
+}
